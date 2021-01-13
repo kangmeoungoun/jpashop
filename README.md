@@ -1,4 +1,3 @@
-### View 환경설정
+### H2 데이터베이스 설치
 
-의존성 주입후 implementation 'org.springframework.boot:spring-boot-devtools'
-리컴파일 하면 뷰 자동 반영
+![image](https://user-images.githubusercontent.com/40969203/104451724-48ab7500-55e5-11eb-9838-e40a22d6c814.png)
