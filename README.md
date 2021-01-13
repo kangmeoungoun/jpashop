@@ -1,6 +1,8 @@
-### 요구사항 분석
+### 도메인 모델과 테이블 설계
 
-![image](https://user-images.githubusercontent.com/40969203/104519616-0f9eef00-563d-11eb-82a6-41a137b95dc1.png)
-![image](https://user-images.githubusercontent.com/40969203/104519623-13327600-563d-11eb-8910-9761de6736c0.png)
-![image](https://user-images.githubusercontent.com/40969203/104519631-162d6680-563d-11eb-90c3-9b5be9ecb036.png)
-![image](https://user-images.githubusercontent.com/40969203/104519639-1a598400-563d-11eb-8054-184b55f8b892.png)
+![image](https://user-images.githubusercontent.com/40969203/104526472-d454ee00-5645-11eb-973a-078885ce42a4.png)
+![image](https://user-images.githubusercontent.com/40969203/104526475-d7e87500-5645-11eb-8308-1e82cc0aebee.png)
+![image](https://user-images.githubusercontent.com/40969203/104526484-db7bfc00-5645-11eb-910e-f2a92268f18c.png)
+![image](https://user-images.githubusercontent.com/40969203/104526494-e040b000-5645-11eb-92e6-cdeb0d14a3b5.png)
+![image](https://user-images.githubusercontent.com/40969203/104526497-e33ba080-5645-11eb-91a0-846b5a8f5e0e.png)
+![image](https://user-images.githubusercontent.com/40969203/104526502-e767be00-5645-11eb-94bb-9a20bdc22ba0.png)
