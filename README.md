@@ -1,4 +1,3 @@
-### 구현 요구사항
-![image](https://user-images.githubusercontent.com/40969203/104658124-80114300-5705-11eb-9259-4b8927c51e4d.png)
-![image](https://user-images.githubusercontent.com/40969203/104658132-83a4ca00-5705-11eb-9f73-bbcbffa1342f.png)
-![image](https://user-images.githubusercontent.com/40969203/104658139-86072400-5705-11eb-8a53-3dc4a40bb960.png)
+### 애플리케이션 아키텍처
+
+![image](https://user-images.githubusercontent.com/40969203/104658546-645a6c80-5706-11eb-9d2c-6ede05b4b61c.png)
