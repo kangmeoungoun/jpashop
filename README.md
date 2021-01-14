@@ -1,9 +1,5 @@
-### 엔티티 클래스 개발2
+### 엔티티 설계시 주의점
 
-![image](https://user-images.githubusercontent.com/40969203/104595445-f9814500-56b5-11eb-9bee-10c2f896367d.png)
-![image](https://user-images.githubusercontent.com/40969203/104595461-000fbc80-56b6-11eb-8fc2-886af1a05064.png)
-![image](https://user-images.githubusercontent.com/40969203/104595470-030aad00-56b6-11eb-9f7e-610dead41964.png)
-![image](https://user-images.githubusercontent.com/40969203/104595484-0736ca80-56b6-11eb-8d45-dea5a12b3550.png)
-![image](https://user-images.githubusercontent.com/40969203/104595493-0a31bb00-56b6-11eb-9709-332381150531.png)
-![image](https://user-images.githubusercontent.com/40969203/104595498-0d2cab80-56b6-11eb-966a-b39a2d879207.png)
-![image](https://user-images.githubusercontent.com/40969203/104595505-0f8f0580-56b6-11eb-865b-02dd4ede3329.png)
+![image](https://user-images.githubusercontent.com/40969203/104600234-1587e500-56bc-11eb-8c2a-72d5a873f963.png)
+![image](https://user-images.githubusercontent.com/40969203/104600247-191b6c00-56bc-11eb-85b6-d63ebc02137d.png)
+![image](https://user-images.githubusercontent.com/40969203/104600275-220c3d80-56bc-11eb-8888-2c4d906c77b5.png)
