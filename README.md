@@ -1,8 +1,8 @@
-### 회원 기능 테스트
+### 삼품 엔티티 개발(비즈니스 로직 추가)
 
-![image](https://user-images.githubusercontent.com/40969203/104835065-531c8600-58e7-11eb-85c9-854ff0690d79.png)
-![image](https://user-images.githubusercontent.com/40969203/104835068-5748a380-58e7-11eb-9b3d-605059491611.png)
-![image](https://user-images.githubusercontent.com/40969203/104835071-5adc2a80-58e7-11eb-8211-99dfe51fb48d.png)
-![image](https://user-images.githubusercontent.com/40969203/104835072-60397500-58e7-11eb-9536-434880933c97.png)
-![image](https://user-images.githubusercontent.com/40969203/104835075-63346580-58e7-11eb-9789-0f6434212d95.png)
-![image](https://user-images.githubusercontent.com/40969203/104835076-67f91980-58e7-11eb-8633-09d969fabe47.png)
+![image](https://user-images.githubusercontent.com/40969203/104835269-de4a4b80-58e8-11eb-92ef-20003fbafc35.png)
+![image](https://user-images.githubusercontent.com/40969203/104835274-e3a79600-58e8-11eb-9f15-f05b49dd5b1e.png)
+![image](https://user-images.githubusercontent.com/40969203/104835279-e6a28680-58e8-11eb-9df7-124a4939d837.png)
+![image](https://user-images.githubusercontent.com/40969203/104835295-fd48dd80-58e8-11eb-9bf6-3dced033ff38.png)
+![image](https://user-images.githubusercontent.com/40969203/104835286-f4f0a280-58e8-11eb-9e2b-ee14a79e1891.png)
+
