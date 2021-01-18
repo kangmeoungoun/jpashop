@@ -6,10 +6,18 @@ import org.slf4j.LoggerFactory;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 
+/**
+ * The type Home controller.
+ */
 @Controller
 @Slf4j
 public class HomeController{
 
+    /**
+     * Home string.
+     *
+     * @return the string
+     */
     @RequestMapping("/")
     public String home(){
         log.info("home controller");
