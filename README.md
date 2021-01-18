@@ -1,8 +1,6 @@
-### 상품 등록
+### 상품 목록
 
-![image](https://user-images.githubusercontent.com/40969203/104924366-aa525180-59e0-11eb-81f3-62d322370d2b.png)
-![image](https://user-images.githubusercontent.com/40969203/104924381-af170580-59e0-11eb-8833-a10c57ddcdcc.png)
-![image](https://user-images.githubusercontent.com/40969203/104924393-b2aa8c80-59e0-11eb-972d-bfcdfaac071e.png)
-![image](https://user-images.githubusercontent.com/40969203/104924400-b5a57d00-59e0-11eb-9cb9-61a27631b033.png)
-![image](https://user-images.githubusercontent.com/40969203/104924410-b8a06d80-59e0-11eb-841b-72f875253372.png)
-![image](https://user-images.githubusercontent.com/40969203/104924426-bd652180-59e0-11eb-8818-ab517e4ad7e3.png)
+![image](https://user-images.githubusercontent.com/40969203/104968960-a8ad7b80-5a2a-11eb-9642-62296c6fecf8.png)
+![image](https://user-images.githubusercontent.com/40969203/104968966-aba86c00-5a2a-11eb-91d0-3a0e2ed46933.png)
+![image](https://user-images.githubusercontent.com/40969203/104968974-aea35c80-5a2a-11eb-8cbb-9e6fc0856cab.png)
+![image](https://user-images.githubusercontent.com/40969203/104968977-b236e380-5a2a-11eb-9d42-344e1027d173.png)

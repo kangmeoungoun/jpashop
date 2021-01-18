@@ -8,20 +8,40 @@ import org.springframework.transaction.annotation.Transactional;
 
 import java.util.List;
 
+/**
+ * The type Item service.
+ */
 @Service
 @Transactional(readOnly = true)
 @RequiredArgsConstructor
 public class ItemService{
     private final ItemRepository itemRepository;
 
+    /**
+     * Save itme.
+     * 아이템 저장
+     * @param item the item
+     */
     @Transactional
     public void saveItme(Item item){
         itemRepository.save(item);
     }
+
+    /**
+     * Find one item.
+     *
+     * @param itemId the item id
+     * @return the item
+     */
     public Item findOne(Long itemId){
         return itemRepository.findOne(itemId);
     }
 
+    /**
+     * Find itmes list.
+     *
+     * @return the list
+     */
     public List<Item> findItmes(){
         return itemRepository.findALl();
     }
