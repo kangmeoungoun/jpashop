@@ -18,7 +18,7 @@ public class BookForm{
     @Range(min = 0,max = 99_999_999,message = "0~99,999,999 사이만 입력할 수 있습니다.")
     private int stockQuantity;
     @NotEmpty( message = "저자 는 필수 입니다.")
-    private String author;
     @NotEmpty( message = "isbn 은 필수 입니다.")
+    private String author;
     private String isbn;
 }

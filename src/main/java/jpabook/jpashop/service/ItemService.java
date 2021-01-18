@@ -23,7 +23,7 @@ public class ItemService{
      * @param item the item
      */
     @Transactional
-    public void saveItme(Item item){
+    public void saveItem(Item item){
         itemRepository.save(item);
     }
 
@@ -42,7 +42,7 @@ public class ItemService{
      *
      * @return the list
      */
-    public List<Item> findItmes(){
+    public List<Item> findItems(){
         return itemRepository.findALl();
     }
 

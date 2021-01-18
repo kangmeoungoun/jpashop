@@ -1,6 +1,7 @@
-### 상품 목록
+### 상품 수정
 
-![image](https://user-images.githubusercontent.com/40969203/104968960-a8ad7b80-5a2a-11eb-9642-62296c6fecf8.png)
-![image](https://user-images.githubusercontent.com/40969203/104968966-aba86c00-5a2a-11eb-91d0-3a0e2ed46933.png)
-![image](https://user-images.githubusercontent.com/40969203/104968974-aea35c80-5a2a-11eb-8cbb-9e6fc0856cab.png)
-![image](https://user-images.githubusercontent.com/40969203/104968977-b236e380-5a2a-11eb-9d42-344e1027d173.png)
+![image](https://user-images.githubusercontent.com/40969203/104971034-d3023780-5a30-11eb-8dd6-4feb439522ba.png)
+![image](https://user-images.githubusercontent.com/40969203/104971038-d72e5500-5a30-11eb-964d-a2488948a6f3.png)
+![image](https://user-images.githubusercontent.com/40969203/104971043-dac1dc00-5a30-11eb-8e24-9b435d86eab5.png)
+![image](https://user-images.githubusercontent.com/40969203/104971048-de556300-5a30-11eb-9c7f-618806c527a5.png)
+![image](https://user-images.githubusercontent.com/40969203/104971059-e44b4400-5a30-11eb-89f3-fed714035cad.png)
