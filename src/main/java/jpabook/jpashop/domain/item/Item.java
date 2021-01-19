@@ -46,4 +46,11 @@ public abstract class Item{
         }
         this.stockQuantity = restStock;
     }
+
+    public void itemChange(int price , String name,int stockQuantity){
+        this.price = price;
+        this.name  = name;
+        this.stockQuantity = stockQuantity;
+    }
+
 }
