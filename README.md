@@ -1,5 +1,12 @@
 ### 상품 등록
 
+
+'''java
+ public String create(@Valid @ModelAttribute MemberForm form, BindingResult bindingResult,Model model)
+ //ModelAttribute model 에 바인딩시 memberForm 으로 key값 생성
+'''
+
+
 ![image](https://user-images.githubusercontent.com/40969203/104924366-aa525180-59e0-11eb-81f3-62d322370d2b.png)
 ![image](https://user-images.githubusercontent.com/40969203/104924381-af170580-59e0-11eb-8833-a10c57ddcdcc.png)
 ![image](https://user-images.githubusercontent.com/40969203/104924393-b2aa8c80-59e0-11eb-972d-bfcdfaac071e.png)
