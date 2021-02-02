@@ -1,9 +1,7 @@
 ### API 개발 기본
-#### 회원 등록 API
-###### 절대로 엔티티를 파라미터로 받으면 안된다.
+#### 회원 수정 API
 
-![image](https://user-images.githubusercontent.com/40969203/106599550-955aee00-659c-11eb-9127-ec47555deca7.png)
-![image](https://user-images.githubusercontent.com/40969203/106599558-9724b180-659c-11eb-8915-73dec71c587b.png)
-![image](https://user-images.githubusercontent.com/40969203/106599585-9f7cec80-659c-11eb-9ad5-ada2f34a91f5.png)
-![image](https://user-images.githubusercontent.com/40969203/106599598-a3107380-659c-11eb-8572-83e4eb5216ea.png)
-![image](https://user-images.githubusercontent.com/40969203/106599612-a6a3fa80-659c-11eb-8936-a955f8ce7b7a.png)
+update 끝난후 해당아이디로 findOne 해서 해당 아이다와 바꾼 이름 리턴
+![image](https://user-images.githubusercontent.com/40969203/106601455-ff749280-659e-11eb-9dac-7cd3e84729da.png)
+![image](https://user-images.githubusercontent.com/40969203/106601464-03081980-659f-11eb-9741-fe85fcc02ddc.png)
+![image](https://user-images.githubusercontent.com/40969203/106601477-069ba080-659f-11eb-9f41-d5d3b3f83c3e.png)
