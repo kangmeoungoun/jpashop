@@ -1,7 +1,47 @@
 ### API 개발 기본
-#### 회원 수정 API
+#### 회원 조회 API
 
-update 끝난후 해당아이디로 findOne 해서 해당 아이다와 바꾼 이름 리턴
-![image](https://user-images.githubusercontent.com/40969203/106601455-ff749280-659e-11eb-9dac-7cd3e84729da.png)
-![image](https://user-images.githubusercontent.com/40969203/106601464-03081980-659f-11eb-9741-fe85fcc02ddc.png)
-![image](https://user-images.githubusercontent.com/40969203/106601477-069ba080-659f-11eb-9f41-d5d3b3f83c3e.png)
+```java
+@JsonIgnore //컬럼에 줄시 리턴시에  빠진다
+@GetMapping("/api/v2/members")
+public Result<List<MemberDto>> memberV2(){
+        List<Member> findMembers = memberService.findMembers();
+        List<MemberDto> collect = findMembers.stream()
+        .map(m -> new MemberDto(m.getName() , m.getAddress()))
+        .collect(Collectors.toList());
+        
+                        //타입추론 
+        return new Result(collect,collect.size());
+        }
+@Data
+@AllArgsConstructor
+static class Result<T> {
+    private T data;
+    private int count;
+}
+@Data
+@AllArgsConstructor
+static class MemberDto {
+    private String name;
+    private Address address;
+}
+```
+```json
+[
+  {},
+  {}
+]
+///처음부터 배열로 할시 유연성이 확떨어진다. 밑에처럼 할시 확장 용이하다.
+{
+  "count": 2
+  "data": [
+    {},
+    {}
+  ]
+}
+```
+![image](https://user-images.githubusercontent.com/40969203/106608344-a2310f00-65a7-11eb-8380-5cec01bbaa90.png)
+![image](https://user-images.githubusercontent.com/40969203/106608359-a6f5c300-65a7-11eb-86a2-9ff8d0a833fc.png)
+![image](https://user-images.githubusercontent.com/40969203/106608371-ab21e080-65a7-11eb-87ef-490342b507e4.png)
+![image](https://user-images.githubusercontent.com/40969203/106608381-aeb56780-65a7-11eb-9b28-a268418c520f.png)
+
