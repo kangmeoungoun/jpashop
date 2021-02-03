@@ -1,11 +1,9 @@
 ### API 개발 고급 - 지연로딩과 조회 성능 최적화
-#### 간단한 주문 조회 V2: 엔티티를 DTO로 변환
+#### 간단한 주문 조회 V3: 엔티티를 DTO로 변환 - 페치 조인 최적화
 
-ORDER -> SQL 1번 -> 결과 주문수 2개
-루프가 돌때
-MEMBER 1번
-DELIVERY 1번
-근데 같은 식벽자 일시 한번만 조회하고 그이후는 영속성컨텍스트 1차캐시에서 가져와 쿼리가 나가지 않는다. 
-
-![image](https://user-images.githubusercontent.com/40969203/106753624-40d47300-666f-11eb-8af9-a196fe25d085.png)
-![image](https://user-images.githubusercontent.com/40969203/106753633-4467fa00-666f-11eb-899a-55f2de618e63.png)
+LEFT JOIN FETCH
+JOIN FETCH
+둘다 가능
+FETCH 할시 fetch = FetchType.LAZY 무시하고 한방에 다가져와 서 쿼리 한번만 실행된다.
+![image](https://user-images.githubusercontent.com/40969203/106755510-8eea7600-6671-11eb-9f21-8dd581fe12ba.png)
+![image](https://user-images.githubusercontent.com/40969203/106755522-93169380-6671-11eb-9308-0237d081cd34.png)

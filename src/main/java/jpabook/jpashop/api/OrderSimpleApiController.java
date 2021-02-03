@@ -46,6 +46,15 @@ public class OrderSimpleApiController{
                                         .collect(toList());
         return new Result(collect);
     }
+    @GetMapping("/api/v3/simple-orders")
+    public Result ordersV3(){
+        //ORDER 2개
+        List<SimpleOrderDto> collect = orderRepository.findAllByWithMemberDeliivery()
+                .stream()
+                .map(SimpleOrderDto :: new)
+                .collect(toList());
+        return new Result(collect);
+    }
 
     @Data
     @AllArgsConstructor
