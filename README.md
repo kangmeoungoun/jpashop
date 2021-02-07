@@ -1,7 +1,9 @@
 ### API 개발 고급 - 컬렉션 조회 최적화
-#### 주문 조회 V1:엔티티를 DTO 로 변환
+#### 주문 조회 V3:엔티티를 DTO 로 변환-페치 조인 최적화
+```
+fetch join 시 distinct : id 값이 같으면 중복 제거 애플리케이션 까지 같고 와서 한번더 중복제거.
+1:다 FETCH 할시 페이징 처리 불가능
+```
 
-![image](https://user-images.githubusercontent.com/40969203/106969136-9dc64b00-678d-11eb-9817-631d7e31980f.png)
-![image](https://user-images.githubusercontent.com/40969203/106969142-a0c13b80-678d-11eb-82ba-44d9c68c99f0.png)
-![image](https://user-images.githubusercontent.com/40969203/106969147-a3bc2c00-678d-11eb-9b4e-dcb0e963e186.png)
-![image](https://user-images.githubusercontent.com/40969203/106969152-a61e8600-678d-11eb-9bd6-13cd2fd00500.png)
+
+ 
